@@ -101,11 +101,16 @@ public class WriteLoops {
         // statement inside the loop that checks the
         // loop index counter and if it’s greater than 51,
         // prints “Hello Zipcode” instead of the statement w = w + 1;
+        for(int i = 5; i <= 105; i++) {
+            // calling
+            if (i  <= 51){
+                w = w + 1;
+            } else if ( i >= 51){
+                System.out.println("Hello Zipcode");
 
-        // calling
-        w = w + 1;
-        // each time through the inner loop
-
+            }
+            // each time through the inner loop
+        }
         return w;
     }
 
